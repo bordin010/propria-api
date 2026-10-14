@@ -1,0 +1,41 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🚗 Car Explorer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <h1>🚗 Car Explorer</h1>
+        <p class="subtitle">Consumindo minha própria API em Node.js</p>
+
+        <div class="car-area">
+            <img src="" alt="Carro" id="carImage">
+        </div>
+
+        <div class="controls">
+            <button id="randomBtn">🎲 Carro Aleatório</button>
+        </div>
+
+        <div class="search">
+            <input
+                type="text"
+                id="breedInput"
+                placeholder="Digite uma marca (ex: ferrari, lamborghini)"
+            >
+            <button id="searchBtn">🔎 Buscar</button>
+        </div>
+
+        <p id="errorMessage" role="alert"></p>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,6 @@
+{
+    "ferrari": ["ferrari/1.jpg", "ferrari/2.jpg", "ferrari/3.jpg"],
+    "lamborghini": ["lamborghini/1.jpg", "lamborghini/2.jpg", "lamborghini/3.jpg"],
+    "mercedes": ["mercedes/1.jpg", "mercedes/2.jpg", "mercedes/3.jpg"],
+    "porsche": ["porsche/1.jpg", "porsche/2.jpg", "porsche/3.jpg"]
+}
